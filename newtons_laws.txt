@@ -1,0 +1,662 @@
+46 Week 1: newton's Laws
+1.4: newton's Laws
+The following are newton's Laws as you will need to know them to both solve problems and answer
+conceptual questions in this course. Note well that they are framed in terms of the spatial coordinates
+dened in the previous section plus mass and time.
+a) Law of Inertia: Objects at rest or in uniform motion (at a constant velocity) in an inertial
+reference frame remain so unless acted upon by an unbalanced (net, total) force. We can write
+this algebraically as:
+diz
+17" = Zi = 0 = m6? = ma => 17' = constant vector (19)
+i
+b) Law of Dynamics: The total force applied to an object is directly proportional to its accel-
+eration in an inertial reference frame. The constant of proportionality is called the mass of
+the object. We write this algebraically as:
+d(m17') _ dfi
+dt _ E (20)
+
+=za=ma=
+i
+where we introduce the momentum of a particle, if = m5, in the last way of writing it.
+c) Law of Reaction: If object A exerts a force 17'" AB on object B along a line connecting the
+two objects, then object B exerts an equal and opposite reaction force of F B A = FAB on
+object A. We write this algebraically as:
+o o
+Fij = sz' (21)
+(or) 21317 = 0 (22)
+where i and j are arbitrary particle labels. The latter form will be useful to us later; it means
+that the sum of all internal forces between particles in any closed system of particles cancelsl.
+Note that these laws are not all independent as mathematics goes. The rst law is a clear and
+direct consequence of the second. The third is not  it is an independent statement. The rst law
+historically, however, had an important purpose. It rejected the dynamics of Aristotle, introducing
+the new idea of intertia where an object in motion continues in that motion unless acted upon by
+some external agency. This is directly opposed to the Aristotelian view that things only moved when
+acted on by an external agency and that they naturally came to rest when that agency was removed.
+The second law is our basic dynamical principle. It tells one how to go from a problem description
+(in words) plus a knowledge of the force laws of nature to an equation of motion (typically a
+statement of newton's second law). The equation of motion, generally solved for the acceleration,
+becomes a kinematical equation from which we can develop a full knowledge of the solution using
+mathematics guided by our experience and physical intuition.
+The third law leads (as we shall see) to the surprising result that systems of particles behave
+collectively like a particle! This is indeed fortunate! We know that something like a baseball is really
+made up of a lot of teensy particles itself, and yet it obeys newton's Second law as if it is a particle.
+We will use the third law to derive this and the closely related Law of Conservation of Momentum
+in a later week of the course.
+An inertial reference frame is a coordinate system (or frame) that is either at rest or moving
+at a constant speed, a non-accelerating frame of reference. For example, the ground, or lab frame,
+is a coordinate system at rest relative to the approximately non-accelerating ground or lab and
+is considered to be an inertial frame to a good approximation. A (coordinate system inside a) carWeek 1: newton's Laws 47
+travelling at a constant speed relative to the ground, a spaceship coasting in a region free from elds, a
+railroad car rolling on straight tracks at constant speed are also inertial frames. A (coordinate system
+inside a) car that is accelerating (say by going around a curve), a spaceship that is accelerating, a
+freight car that is speeding up or slowing down  these are all examples of non-inertial frames. All
+of newton's laws suppose an inertial reference frame (yes, the third law too) and are generally false
+for accelerations evaluated in an accelerating frame as we will prove and discuss next week.
+in
+In the meantime, please be sure to learn the statements of the laws including the condition
+an inertial reference frame, in spite of the fact that you dont yet really understand what this means
+and why we include it. Eventually, it will be the other important meaning and use of newton's First
+Law  it is the law that denes an inertial reference frame as any frame where an object remains in
+a state of uniform motion if no forces act on it!
+Youll be glad that you did.
+1 .5: Forces
+Classical dynamics at this level, in a nutshell, is very simple. Find the total force on an object.
+Use newton's second law to obtain its acceleration (as a differential equation of motion). Solve the
+equation of motion by direct integration or otherwise for the position and velocity.
+Thats it!
+Well, except for answering those pesky questions that we typically ask in a physics problem, but
+well get to that later. For the moment, the next most important problem is: how do we evaluate
+the total force?
+To answer it, we need a knowledge of the forces at our disposal, the force laws and rules that
+we are likely to encounter in our everyday experience of the world. Some of these forces are funda-
+mental forces  elementary forces that we call laws of nature because the forces themselves arent
+caused by some other force, they are themselves the actual causes of dynamical action in the visible
+Universe. Other force laws arent quite so fundamental  they are more like approximate rules
+and arent exactly correct. They are also usually derivable from (or at least understandable from)
+the elementary natural laws, although it may be quite a lot of work to do so.
+We quickly review the forces we will be working with in the rst part of the course, both the
+forces of nature and the force rules that apply to our everyday existence in approximate form.
+1.5.1: The Forces of Nature
+At this point in your life, you almost certainly know that all normal matter of your everyday
+experience is made up of atoms. Most of you also know that an atom itself is made up of a positively
+charged atomic nucleus that is very tiny indeed surrounded by a cloud of negatively charged electrons
+that are much lighter. Atoms in turn bond together to make molecules, atoms or molecules in turn
+bind together (or not) to form gases, liquids, solids  things, including those macroscopic things
+that we are so far treating as particles.
+The actual elementary particles from which they are made are much tinier than atoms. It is worth
+providing a greatly simplied table of the stuff from which normal atoms (and hence molecules,
+and hence we ourselves) are made:
+In this table, up and down quarks and electrons are so-called elementary particles  things that
+are not made up of something else but are fundamental components of nature. Quarks bond together
+three at a time to form nucleons  a proton is made up of up-up-down quarks and has a charge
+of +e, where e is the elementary electric charge. A neutron is made up of up-down-down and has48 Week 1: newton's Laws
+
+
+
+
+
+
+
+
+Particle Location Size
+Up or Down Quark Nucleon (Proton or Neutron) pointlike
+Proton Nucleus 1015 meters
+Neutron Nucleus 1015 meters
+Nucleus Atom 1015 meters
+Electron Atom pointlike
+Atom Molecules or Objects ~ 1010 meters
+Molecule Objects > 1010 meters
+
+
+
+
+Table 1: Basic building blocks of normal matter as of 2011, subject to change as we discover and
+understand more about the Universe, ignoring pesky things like neutrinos, photons, gluons, heavy
+vector bosons, heavier leptons that physics majors (at least) will have to learn about later...
+no charge.
+Neutrons and protons, in turn, bond together to make an atomic nucleus. The simplest atomic
+nucleus is the hydrogen nucleus, which can be as small as a single proton, or can be a proton bound
+to one neutron (deuterium) or two neutrons (tritium). No matter how many protons and neutrons
+are bound together, the atomic nucleus is small  order of 1015 meters in diameter. The quarks,
+protons and neutrons are bound together by means of a force of nature called the strong nuclear
+interaction, which is the strongest force we know of relative to the mass of the interacting particles.
+The positive nucleus combines with electrons (which are negatively charged and around 2000
+times lighter than a proton) to form an atom. The force responsible for this binding is the electro-
+magnetic force, another force of nature (although in truth nearly all of the interaction is electrostatic
+in nature, just one part of the overall electromagnetic interaction).
+The light electrons repel one another electrostatically almost as strongly as they are attracted
+to the nucleus that anchors them. They also obey the Pauli exclusion principle which causes them
+to avoid one anothers company. These things together cause atoms to be much larger than a
+nucleus, and to have interesting structure that gives rise to chemistry and molecular bonding and
+(eventually) life.
+Inside the nucleus (and its nucleons) there is another force that acts at very short range. This
+force can cause e.g. neutrons to give off an electron and turn into a proton or other strange things
+like that. This kind of event changes the atomic number of the atom in question and is usually
+accompanied by nuclear radiation. We call this force the weak nuclear force. The two nuclear forces
+thus both exist only at very short length scales, basically in the quantum regime inside an atomic
+nucleus, where we cannot easily see them using the kinds of things well talk about this semester.
+For our purposes it is enough that they exist and bind stable nuclei together so that those nuclei in
+turn can form atoms, molecules, objects, us.
+Our picture of normal matter, then, is that it is made up of atoms that may or may not be
+bonded together into molecules, with three forces all signicantly contributing to what goes on
+inside a nucleus and only one that is predominantly relevant to the electronic structure of the atoms
+themselves.
+There is, however, a fourth force (that we know of  there may be more still, but four is all
+that weve been able to positively identify and understand). That force is gravity. Gravity is a bit
+odd. It is a very long range, but very weak force  by far the weakest force of the four forces of
+nature. It only is signcant when one builds planet or star sized objects, where it can do anything
+from simply bind an atmosphere to a planet and cause moons and satellites to go around it in nice
+orbits to bring about the catastrophic collapse of a dying star. The physical law for gravitation will
+
+40...with the possible exception of neutrons bound together by gravity to form neutron stars. Those can be thought
+of, very crudely, as very large nuclei.Week 1: newton's Laws 49
+be studied over an entire week of work  later in the course. I put it down now just for completeness,
+but initially well focus on the force rules in the following section.
+ Gm m -
+F21 = #T12 (23)
+T12
+Dont worry too much about what all of these symbols mean and what the value of G is  well get
+to all of that but not now.
+Since we live on the surface of a planet, to us gravity will be an important force, but the forces
+we experience every day and we ourselves are primarily electromagnetic phenomena, with a bit of
+help from quantum mechanics to give all that electromagnetic stuff just the right structure.
+Lets summarize this in a short table of forces of nature, strongest to weakest:
+a Strong Nuclear
+b Electromagnetic
+)
+)
+c) Weak Nuclear
+)
+d Gravity
+Note well: It is possible that there are more forces of nature waiting to be discovered. Because
+physics is not a dogma, this presents no real problem. If a new force of nature (or radically different
+way to view the ones weve got) emerges as being consistent with observation and predictive, and
+hence possibly/ plausibly true and correct, well simply give the discoverer a Nobel Prize, add their
+name to the pantheon of great physicists, add the force itself to the list above, and move on.
+Science, as noted above, is a self-correcting system of reasoning, at least when it is done right.
+1 .5.2: Force Rules
+The following set of force rules will be used both in this chapter and throughout this course. All of
+these rules can be derived or understood (with some effort) from the forces of nature, that is to say
+from elementary natural laws, but are not quite laws themselves.
+a) Gravity (near the surface of the earth):
+Fg = mg (24)
+The direction of this force is down, so one could write this in vector form as 17.9 = mgg in
+a coordinate system such that up is the +3; direction. This rule follows from newton's Law
+of Gravitation, the elementary law of nature in the list above, evaluated near the surface
+of the earth where it is varies only very slowly with height above the surface (and hence is
+constant) as long as that height is small compared to the radius of the Earth.
+The measured value of g (the gravitational constan  or gravitational eld close to the Earths
+surface) thus isnt really constant  it actually varies weakly with latitude and height and the
+local density of the earth immediately under your feet and is pretty complicated41 . Some
+constant, eh?
+Most physics books (and the wikipedia page I just linked) give gs value as something like:
+g m 9.81 meters (25)
+second2
+
+41Wikipedia: http://www.wikipedia.org/wiki/Gravity_of_Earth. There is a very cool rotating earth graphic on
+this page that shows the eld variation in a color map. This page goes into much more detail than I will about the
+causes of variation of apparent gravity.50
+Week 1: newton's Laws
+(which is sort of an average of the variation) but in this class to the extent that we do arithmetic
+with it well just use
+meters
+g m 10 (26)
+second2
+because hey, so it makes a 2% error. Thats not very big, really  you will be lucky to measure
+g in your labs to within 2%, and it is so much easier to multiply or divide by 10 than 9.80665.
+The Spring (Hookes Law) in one dimension:
+Fw = kAa: (27)
+This force is directed back to the equilibrium point (the end of the unstretched spring where
+the mass is attached) in the opposite direction to Am, the displacement of the mass on the
+spring away from this equilibrium position. This rule arises from the primarily electrostatic
+forces holding the atoms or molecules of the spring material together, which tend to linearly
+oppose small forces that pull them apart or push them together (for reasons we will understand
+in some detail later).
+The Normal Force:
+F J_ = N (28)
+This points perpendicular and away from solid surface, magnitude suicient to oppose the force
+of contact whatever it might be! This is an example of a force of constraint  a force whose
+magnitude is determined by the constraint that one solid object cannot generally interpenetrate
+another solid object, so that the solid surfaces exert whatever force is needed to prevent it
+(up to the point where the solid property itself fails). The physical basis is once again the
+electrostatic molecular forces holding the solid object together, and microscopically the surface
+deforms, however slightly, more or less like a spring to create the force.
+Tension in an Acme (massless, unstretchable, unbreakable) string:
+R=T am
+This force simply transmits an attractive force between two objects on opposite ends of the
+string, in the directions of the taut string at the points of contact. It is another constraint force
+with no xed value. Physically, the string is like a spring once again  it microscopically is
+made of bound atoms or molecules that pull ever so slightly apart when the string is stretched
+until the restoring force balances the applied force.
+Static Friction
+hSwN (m)
+(directed opposite towards net force parallel to surface to contact). This is another force of
+constraint, as large as it needs to be to keep the object in question travelling at the same speed
+as the surface it is in contact with, up to the maximum value static friction can exert before
+the object starts to slide. This force arises from mechanical interlocking at the microscopic
+level plus the electrostatic molecular forces that hold the surfaces themselves together.
+Kinetic Friction
+f k = MN (31)
+(opposite to direction of relative sliding motion of surfaces and parallel to surface of contact).
+This force does have a xed value when the right conditions (sliding) hold. This force arises
+from the forming and breaking of microscopic adhesive bonds between atoms on the surfaces
+plus some mechanical linkage between the small irregularities on the surfaces.Week 1: newton's Laws 51
+g) Fluid Forces, Pressure: A uid in contact with a solid surface (or anything else) in general
+exerts a force on that surface that is related to the pressure of the uid:
+Fp = PA (32)
+which you should read as the force exerted by the uid on the surface is the pressure in the
+uid times the area of the surface. If the pressure varies or the surface is curved one may
+have to use calculus to add up a total force. In general the direction of the force exerted is
+perpendicular to the surface. An object at rest in a uid often has balanced forces due to
+pressure. The force arises from the molecules in the uid literally bouncing off of the surface
+of the object, transferring momentum (and exerting an average force) as they do so. We
+will study this in some detail and will even derive a kinetic model for a gas that is in good
+agreement with real gases.
+h) Drag Forces:
+Fd = bu" (33)
+(directed opposite to relative velocity of motion through uid, n usually between 1 (low veloc-
+ity) and 2 (high velocity). It arises in part because the surface of an object moving through
+a uid is literally bouncing uid particles off in the leading direction while moving away from
+particles in the trailing direction, so that there is a differential pressure on the two surfaces,
+in part from kinetic friction that exerts a force component parallel to a surface in relative
+motion to the uid. It is really pretty complicated  so complicated that we can only write
+down a specic, computable expression for it for very simple geometries and situations. Still,
+it is a very important and ubiquitous force and well try to gain some appreciation for it along
+the way.
+1.6: Force Balance  Static Equilibrium
+Before we start using dynamics at all, let us consider what happens when all of the forces acting on
+an object balance. That is, there are several non-zero (vector) forces acting on an object, but those
+forces sum up to zero force. In this case, newton's First Law becomes very useful. It tells us that
+the object in question will remain at rest if it is initially at rest. We call this situation where the
+forces are all balanced static force equilibrium:
+13,0, = :13,- = m6 = 0 (34)
+i
+This works both ways; if an object is at rest and stays that way, we can be certain that the forces
+acting on it balance!
+We will spend some time later studying static equilibrium in general once we have learned about
+both forces and torques, but for the moment we will just consider a single example of what is after
+all a pretty simple idea. This will also serve as a short introduction to one of the forces listed above,
+Hookes Law for the force exerted by a spring on an attached mass.
+Example 1.6.1: Spring and Mass in Static Force Equilibrium
+Suppose we have a mass m hanging on a spring with spring constant k such that the spring is
+stretched out some distance Air: from its unstretched length. This situation is pictured in gure 3.
+We will learn how to really solve this as a dynamics problem later  indeed, well spend an entire
+week on it! Right now we will just write down newton's laws for this problem so we can nd a. Let
+the a: direction be up. Then (using Hookes Law from the list above):52 Week 1: newton's Laws
+
+Figure 3: A mass m hangs on a spring with spring constant k. We would like to compute the amount
+A1: by which the string is stretched when the mass is at rest in static force equilibrium.
+SE, = k(1:  1:0)  mg = max (35)
+or (with A1: = (I?  1:0, so that A1: is negative as shown)
+k
+w = A
+a (I? g (36)
+Note that this result doesnt depend on where the origin of the alt-axis is, because (I? and 1:0 both
+change by the same amount as we move it around. In most cases, we will nd the equilibrium
+position of a mass on a spring to be the most convenient place to put the origin, because then (I? and
+A1: are the same!
+In static equilibrium, aw = 0 (and hence, Fw = 0) and we can solve for Am:
+aw=Amg = 0
+m
+EAm = g
+m
+Ax = E (37)
+k
+You will see this result appear in several problems and examples later on, so bear it in mind.
+1.7: Simple Motion in One Dimension
+Finally! All of that preliminary stuff is done with. If you actually read and studied the chapter up
+to this point (many of you will not have done so, and youll be SORRReeee...) you should:
+a) Know newton's Laws well enough to recite them on a quiz  yes, I usually just put a question
+like What are newton's Laws on quizzes just to see who can recite them perfectly, a really
+useful thing to be able to do given that were going to use them hundreds of times in the next
+12 weeks of class, next semester, and beyond; and
+b) Have at least started to commit the various force rules well use this semester to memory.Week 1: newton's Laws 53
+I dont generally encourage rote memorization in this class, but for a few things, usually very
+fundamental things, it can help. So if you havent done this, go spend a few minutes working on
+this before starting the next section.
+All done? Well all rightie then, lets see if we can actually use newton's Laws (usually newton's
+Second Law, our dynamical principle) and force rules to solve problems. We will start out very gently,
+trying to understand motion in one dimension (where we will not at rst need multiple coordinate
+dimensions or systems or trig or much of the other stuff that will complicate life later) and then,
+well, well complicate life later and try to understand what happens in 2+ dimensions.
+Heres the basic structure of a physics problem. You are given a physical description of the
+problem. A mass m at rest is dropped from a height H above the ground at time t = 0; what
+happens to the mass as a function of time? From this description you must visualize whats going
+on (sometimes but not always aided by a gure that has been drawn for you representing it in
+some way). You must select a coordinate system to use to describe what happens. You must write
+newton's Second Law in the coordinate system for all masses, being sure to include all forces or force
+rules that contribute to its motion. You must solve newton's Second Law to nd the accelerations
+of all the masses (equations called the equations of motion of the system). You must solve the
+equations of motion to nd the trajectories of the masses, their positions as a function of time, as
+well as their velocities as a function of time if desired. Finally, armed with these trajectories, you
+must answer all the questions the problem poses using algebra and reason and  rarely in this class
+ arithmetic!
+Simple enough.
+Lets put this simple solution methodology to the test by solving the following one dimensional,
+single mass example problem, and then see what weve learned.
+Example 1.7.1: A Mass Falling from Height H
+Lets solve the problem we posed above, and as we do so develop a solution rubric  a recipe for
+solving all problems involving dynamics./ The problem, recall, was to drop a mass m from rest
+from a height H, algebraically nd the trajectory (the position function that solves the equations
+of motion) and velocity (the time derivative of the trajectory), and then answer any questions that
+might be asked using a mix of algebra, intuition, experience and common sense. For this
+rst problem well postpone actually asking any question until we have these solutions so that we
+can see what kinds of questions one might reasonably ask and be able to answer.
+The rst step in solving this or any physics problem is to visualize whats going on./ Mass m?
+Height H? Drop? Start at rest? Fall? All of these things are input data that mean something when
+translated into algebraic physicsese, the language of physics, but in the end we have to coordinatize
+the problem (choose a coordinate system in which to do the algebra and solve our equations for an
+answer) and to choose a good one we need to draw a representation of the problem.
+Physics problems that you work and hand in that have no gure, no picture, not even additional
+hand-drawn decorations on a prouided gure will rather soon lose points in the grading scheme!
+At rst we (the course faculty) might just remind you and not take points off, but by your second
+assignment youd better be adding some relevant artwork to every solution. Figure 4 is what an
+
+42At least for the next couple of weeks... but seriously, this rubric is useful all the way up to graduate physics.
+43This has two benets  one is that it actually is a critical step in solving the problem, the other is that drawing
+engages the right hemisphere of your brain (the left hemisphere is the one that does the algebra). The right hemisphere
+is the one that controls formation of long term memory, and it can literally get bored, independently of the left
+hemisphere and interrupt your ability to work. If youve ever worked for a very long time on writing something
+very dry (left hemisphere) or doing lots of algebraic problems (left hemisphere) and found your eyes being almost
+irresistably drawn up to look out the window at the grass and trees and ponies and bright sun, then know that it is
+your right brain that has taken over your body because it is dying in there, bored out of its (your!) gourd.54 Week 1: newton's Laws
+
+Figure 4: A picture of a ball being dropped from a height H, with a suitable one-dimensional
+coordinate system added. Note that the gure clearly indicates that it is the force of gravity that
+makes it fall. The pictures of Satchmo (my border collie) and the tree and sun and birds arent
+strictly necessary and might even be distracting, but my right brain was bored when I drew this
+picture and they do orient the drawing and make it more fun!
+actual gure you might draw to accompany a problem might look like.
+Note a couple of things about this gure. First of all, it is large  it took up 1/4+ of the
+unlined/white page I drew it on. This is actually good practice  do not draw postage-stamp sized
+gures! Draw them large enough that you can decorate them, not with Satchmo but with things like
+coordinates, forces, components of forces, initial data reminders. This is your brain were talking
+about here, because the paper is functioning as an extension of your brain when you use it to help
+solve the problem. Is your brain postage-stamp sized? Dont worry about wasting paper  paper is
+cheap, physics educations are expensive. Use a whole page (or more) per problem solution at this
+point, not three problems per page with gures that require a magnifying glass to make out.
+When I (or your instructor) solve problems with you, this is the kind of thing youll see us draw,
+over and over again, on the board, on paper at a table, wherever. In time, physicists become pretty
+good schematic artists and so should you. However, in a textbook we want things to be clearer and
+prettier, so Ill redraw this in gure 5, this time with a computer drawing tool (xg) that Ill use
+for drawing most of the gures included in the textbook. Alas, it wont have Satchmo, but it does
+have all of the important stu that should be on your hand-drawn gures.
+Note that I drew two alternative ways of adding coordinates to the problem. The one on the
+left is appropriate if you visualize the problem from the ground, looking up like Satchmo, where
+the ground is at zero height. This might be e.g. dropping a ball off of the top of Duke Chapel, for
+example, with you on the ground watching it fall.
+The one or the right works if you visualize the problem as something like dropping the same ball
+
+To keep the right brain happy while you do left brained stuff, give it something to do  listen to music, draw pictures
+or visualize a lot, take ve minute right-brainbreaks and deliberately look at something visually pleasing. If your
+right brain is happy, you can work longer and better. If your right brain is engaged in solving the problem you will
+remember what you are working on much better, it will make more sense, and your attention wont wander as much.
+Physics is a whole brain subject, and the more pathways you use while working on it, the easier it is to understand
+and remember!Week 1: newton's Laws 55
+
+
+V=0@t=0 V=0@t=0
++ +y
+H m m
+x
+mg mg
+H
+:I; "7:!
+Figure 5: The same gure and coordinate system, drawn perfectly with Xg, plus a second (alter-
+native) coordinatization.
+into a well, where the ground is still at zero height but now it falls down to a negative height H
+from zero instead of starting at H and falling to height zero. Or, you dropping the ball from the
+top of the Duke Chapel and counting y = 0 as the height where you are up there (and the initial
+position in y of the ball), with the ground at y = H below the nal position of the ball after it
+falls.
+Now pay attention, because this is important: Physics doesnt care which coordinate sys-
+tem you use! Both of these coordinatizations of the problem are inertial reference frames. If you
+think about it, you will be able to see how to transform the answers obtained in one coordinate
+system into the corresponding answers in the other (basically subtract a constant H from the values
+of y in the left hand gure and you get y in the right hand gure, right?). newton's Laws will
+work perfectly in either inertial reference frame, and truthfully there are an innite number of
+coordinate frames you could choose that would all describe the same problem in the end. You can
+therefore choose the frame that makes the problem easiest to solve!
+Personally, from experience I prefer the left hand frame  it makes the algebra a tiny bit prettier
+ but the one on the right is really almost as good. I reject without thinking about it all of the frames
+where the mass m e.g. starts at the initial position yi = H / 2 and falls down to the nal position
+yf = H/2. I do sometimes consider a frame like the one on the right with y positive pointing
+down, but it often bothers students to have down be positive (even though it is very natural to
+orient our coordinates so that 17'" points in the positive direction of one of them) so well work into
+that gently. Finally, I did draw the a: (horizontal) coordinate and ignored altogether for now the
+z coordinate that in principle is pointing out of the page in a right-handed coordinate frame. We
+dont really need either of these because no aspect of the motion will change a: or 2 (there are no
+forces acting in those directions) so that the problem is effectively one-dimensional.
+Next, we have to put in the physics, which at this point means: Draw in all of the forces
+that act on the mass as proportionate vector arrows in the direction of the force. The
+proportionate part will be diicult at rst until you get a feeling for how large the forces are likely
+to be relative to one another but in this case there is only one force, gravity that acts, so we can
+write on our page (and on our diagram) the vector relation:
+F = mg!2 (38)
+or if you prefer, you can write the dimension-labelled scalar equation for the magnitude of the force
+in the y-direction:
+Fv = mg (39)
+
+44For the moment you can take my word for this, but we will prove it in the next week/ chapter when we learn how
+to systematically change between coordinate frames!56 Week 1: newton's Laws
+Note well! Either of these is acceptable vector notation because the force is a vector (magnitude
+and direction). So is the decoration on the gure  an arrow for direction labelled mg.
+What is not quite right (to the tune of minus a point or two at the discretion of the grader) is to
+just write F = mg on your paper without indicating its direction somehow. Yes, this is the magnitude
+of the force, but in what direction does it point in the particular coordinate system you drew into
+your gure? After all, you could have made +1: point down as easily as y! Practice connecting
+your visualization of the problem in the coordinates you selected to a correct algebraic/ symbolic
+description of the vectors involved.
+In context, we dont really need to write Fw = Fz = 0 because they are so clearly irrelevant.
+However, in many other problems we will need to include either or both of these. Youll quickly get
+a feel for when you do or dont need to worry about them.
+Now comes the key step  setting up all of the algebra that leads to the solution. We write
+newton's Second Law for the mass m, and algebraically solve for the acceleration! Since there is
+only one relevant component of the force in this one-dimensional problem, we only need to do this
+one time for the scalar equation for that component.:
+Fy = mg = may
+may = mg
+ay =  g
+d2y dvy
+_ = _ = _ 40
+01252 dt 9 ( )
+where g = 10 m/second2 is the constant (within 2%, close to the Earths surface, remember).
+We are all but done at this point. The last line (the algebraic expression for the acceleration)
+is called the equation of motion for the system, and one of our chores will be to learn how to solve
+several common kinds of equation of motion. This one is a constant acceleration problem. Lets
+do it.
+Here is the algebra involved. Learn it. Practice doing this until it is second nature when solving
+simple problems like this. I do not recommend memorizing the solution you obtain at the end, even
+though when you have solved the problem enough times you will probably remember it anyway for
+the rest of your share of eternity. Start with the equation of motion for a constant acceleration:
+d
+% = g Next, multiply both sides by dt to get:
+dvy = g dt Then integrate both sides:
+/ dvy =  / g dt doing the indenite integrals to get:
+vy(t) = gt + C (41)
+The nal 0 is the constant of integration of the indenite integrals. We have to evaluate it using
+the given (usually initial) conditions. In this case we know that:
+vy(0)=g-0+C=C=O (42)
+(Recall that we even drew this into our gure to help remind us  it is the bit about being dropped
+from rest at time t = 0.) Thus:
+vim = gt (43)
+We now know the velocity of the dropped ball as a function of time! This is good, we are likely
+to need it. However, the solution to the dynamical problem is the trajectory function, y(t). To ndWeek 1: newton's Laws 57
+it, we repeat the same process, but now use the denition for 12,, in terms of y:
+% = vy(t) = gt Multiply both sides by dt to get:
+=  gt dt Next, integrate both sides:
+y
+/dy = /gt dt to get:
+1
+= gt2 + D (44)
+The nal D is again the constant of integration of the indenite integrals. We again have to evaluate
+it using the given (initial) conditions in the problem. In this case we know that:
+1
+y(0)=g-02+D=D=H (45)
+because we dropped it from an initial height y(0) = H. Thus:
+1
+y(t) = 392:2 + H (46)
+and we know everything there is to know about the motion! We know in particular exactly where it
+is at all times (until it hits the ground) as well as how fast it is going and in what direction. Sure,
+later well learn how to evaluate other quantities that depend on these two, but with the solutions
+in hand evaluating those quantities will be (we hope) trivial.
+Finally, we have to answer any questions that the problem might ask! Note well that
+the problem may not have told you to evaluate y(t) and vy(t), but in many cases youll need them
+anyway to answer the questions they do ask. Here are a couple of common questions you can now
+answer using the solutions you just obtained:
+a) How long will it take for the ball to reach the ground?
+b) How fast is it going when it reaches the ground?
+To answer the rst one, we use a bit of algebra. The ground is (recall) y = 0 and it will reach
+there at some specic time (the time we want to solve for) tg. We write the condition that it is at
+the ground at time tg:
+1
+gay) = 392:; + H = o (47)
+If we rearrange this and solve for tg we get:
+t9 = j: E (48)
+g
+Hmmm, there seem to be two times at which y(tg) equals zero, one in the past and one in the
+future. The right answer, of course, must be the one in the future: t9 = +x/2H/ , but you should
+think about what the one in the past means, and how the algebraic solution weve just developed is
+ignorant of things like your hand holding the ball before t = 0 and just what value of y corresponds
+to the ground
+That was pretty easy. To nd the speed at which it hits the ground, one can just take our correct
+(future) time and plug it into 12y! That is:
+119 =vy(t gg)=-gt =19? 29H (49)
+Note well that it is going down (in the negative y direction) when it hits the ground. This 1s a good
+hint for the previous puzzle. What direction would it have been going at the negative time? What58 Week 1: newton's Laws
+kind of motion does the overall solution describe, on the interval from t = (00, 00)? Do we need
+to use a certain amount of common sense to avoid using the algebraic solution for times or values
+of y for which they make no sense, such as y < 0 or t < 0 (in the ground or before we let go of the
+ball, respectively)?
+The last thing we might look at Im going to let you do on your own (dont worry, its easy
+enough to do in your head). Assuming that this algebraic solution is valid for any reasonable H,
+how fast does the ball hit the ground after falling (say) 5 meters? How about 20 = 4 * 5 meters?
+How about 80 = 16 * 5 meters? How long does it take for the ball to fall 5 meters, 20 meters, 80
+meters, etc? In this course we wont do a lot of arithmetic, but whenever we learn a new idea with
+parameters like g in it, it is useful to do a little arithmetical exploration to see what a reasonable
+answer looks like. Especially note how the answers scale with the height  if one drops it from 4x
+the height, how much does that increase the time it falls and speed with which it hits?
+One of these heights causes it to hit the ground in one second, and all of the other answers scale
+with it like the square root. If you happen to remember this height, you can actually estimate how
+long it takes for a ball to fall almost any height in your head with a division and a square root, and
+if you multiply the time answer by ten, well, there is the speed with which it hits! Well do some
+conceptual problems that help you understand this scaling idea for homework.
+This (a falling object) is nearly a perfect problem archetype or example for one dimensional
+motion. Sure, we can make it more complicated, but usually well do that by having more than one
+thing move in one dimension and then have to gure out how to solve the two problems simultaneously
+and answer questions given the results.
+Lets take a short break to formally solve the equation of motion we get for a constant force in
+one dimension, as the general solution exhibits two constants of integration that we need to be able
+to identify and evaluate from initial conditions. Note well that the next problem is almost identical
+to the former one. It just differs in that you are given the force 17" itself, not a knowledge that the
+force is e.g. gravity.
+Example 1.7.2: A Constant Force in One Dimension
+This time well imagine a different problem. A car of mass m is travelling at a constant speed 120 as
+it enters a long, nearly straight merge lane. A distance d from the entrance, the driver presses the
+accelerator and the engine exerts a constant force of magnitude F on the car.
+a) How long does it take the car to reach a nal velocity Uf > 120?
+b) How far (from the entrance) does it travel in that time?
+As before, we need to start with a good picture of what is going on. Hence a car:
+y
+H
+O
+er
+||
+er
+H,
+
+
+m V0 - F -
+
+
+Figure 6: One possible way to portray the motion of the car and coordinatize it.Week 1: newton's Laws 59
+In gure 6 we see what we can imagine are three slices of the cars position as a function of
+time at the moments described in the problem. On the far left we see it entering a long, nearly
+straight merge lane. The second position corresponds to the time the car is a distance d from the
+entrance, which is also the time the car starts to accelerate because of the force F. I chose to start
+the clock then, so that I can integrate to nd the position as a function of time while the force is
+being applied. The nal position corresponds to when the car has had the force applied for a time
+t f and has acquired a velocity 11f. I labelled the distance of the car from the entrance D at that
+time. The mass of the car is indicated as well.
+This gure completely captures the important features of the problem! Well, almost. There are
+two forces I ignored altogether. One of them is gravity, which is pulling the car down. The other is
+the so-called normal force exerted by the road on the car  this force pushes the car up. I ignored
+them because my experience and common sense tell me that under ordinary circumstances the road
+doesnt push on the car so that it jumps into the air, nor does gravity pull the car down into the road
+ the two forces will balance and the car will not move or accelerate in the vertical direction. Next
+week well take these forces into explicit account too, but here Im just going to use my intuition
+that they will cancel and hence that the ydirection can be ignored, all of the motion is going to be
+in the alt-direction as Ive dened it with my coordinate axes.
+Its time to follow our ritual. We will write newton's Second Law and solve for the acceleration
+(obtaining an equation of motion). Then we will integrate twice to nd rst 12w (t) and then a:(t). We
+will have to be extra careful with the constants of integration this time, and in fact will get a very
+general solution, one that can be applied to all constant acceleration problems, although I do not
+recommend that you memorize this solution and try to use it every time you see newton's Second
+Law! For one thing, well have quite a few problems this year where the force, and acceleration, are
+not constant and in those problems the solution we will derive is wrong. Alas, to my own extensive
+and direct experience, students that memorize kinematic solutions to the constant acceleration
+problem instead of learning to solve it with actual integration done every time almost invariably
+try applying the solution to e.g. the harmonic oscillator problem later, and I hate that. So dont
+memorize the answer; learn how to derive it and practice the derivation until (sure) you know the
+result, and also know when you can use it.
+Thus:
+F = maw
+F
+aw =  =a0 (a constant)
+m
+de
+_ = 50
+dt 0 (
+Next, multiply through by dt and integrate both sides:
+F
+vw(t)=/de=/aodt=aot+V=Rt+V (51)
+Either of the last two are valid answers, provided that we dene a0 = F/ m somewhere in the solution
+and also provided that the problem doesnt explicitly ask for an answer to be given in terms of F
+and m. V is a constant of integration that we will evaluate below.
+Note that if a0 = F/m was not a constant (say that F(t) is a function of time) then we would
+have to do the integral:
+vw(t) = / % dt= % / F(t) dt =??? (52)
+At the very least, we would have to know the explicit functional form of F(t) to proceed, and the
+answer would not be linear in time.60 Week 1: newton's Laws
+At time t = 0, the velocity of the car in the alt-direction is uo, so (check for yourself) V = 120 and:
+uw(t) = aot + 120 = (11:- (53)
+We multiply this equation by dt on both sides, integrate, and get:
+1 2
+$05) = dill = (dot + 00) dt = 50,075 + Uot + (170 (54)
+where 1:0 is the constant of integration. We note that at time t = 0, a:(0) = d, so 1:0 = d. Thus:
+1
+a:(t) = 5a0t2 + uot + d (55)
+It is worth collecting the two basic solutions in one place. It should be obvious that for any
+one-dimensional (say, in the m-direction) constant acceleration aw = a0 problem we will always nd
+that:
+01,.(75) = aot + 00 (56)
+1
+a:(t) = 5a0t2 + uot + 1:0 (57)
+where 1:0 is the m-position at time t = 0 and 120 is the alt-velocity at time t = 0. You can see why it
+is so very tempting to just memorize this result and pretend that you know a piece of physics, but
+dont!
+The algebra that led to this answer is basically ordinary math with units. As weve seen, math
+with units has a special name all its own  kinematics  and the pair of equations 56 and 57 are
+called the kinematic solutions to the constant acceleration problem. Kinematics should be contrasted
+with dynamics, the physics of forces and laws of nature that lead us to equations of motion. One
+way of viewing our solution strategy is that  after drawing and decorating our gure, of course
+we solve rst the dynamics problem of writing our dynamical principle (newton's Second Law with
+the appropriate vector total force), turning it into a differential equation of motion, then solving
+the resulting kinematics problem represented by the equation of motion with calculus. Dont be
+tempted to skip the calculus and try to memorize the kinematic solutions  it is just as important
+to understand and be able to do the kinematic calculus quickly and painlessly as it is to be able to
+set up the dynamical part of the solution.
+Now, of course, we have to actually answer the questions given above. To do this requires as
+before logic, common sense, intuition, experience, and math. First, at what time tf does the car
+have speed Uf? When:
+uw(tf) = Uf = aotf + 120 (58)
+of course. You can easily solve this for t f. Note that I just transformed the English statement At
+t f, the car must have speed 12f into an algebraic equation that means the exact same thing!
+Second, what is D? Well in English, the distance D from the entrance is where the car is at time
+t f, when it is also travelling at speed Uf. If we turn this sentence into an equation we get:
+1
+2:05,) = D = gaunt; + uotf + d (59)
+Again, having solved the previous equation algebraically, you can substitute the result for t f into
+this equation and get D in terms of the originally given quantities! The problem is solved, the
+questions are answered, were nished.
+Or rather, you will be nished, after you ll in these last couple of steps on your own!

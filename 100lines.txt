@@ -1,0 +1,100 @@
+not just physics courses) and it is time to get on with the actual material for this course.
+Mathematics
+Physics, as was noted in the preface, requires a solid knowledge of all mathematics through calculus.
+Thats right, the whole nine yards: number theory, algebra, geometry, trigonometry, vectors, differ-
+ential calculus, integral calculus, even a smattering of differential equations. Somebody may have24 Preliminaries
+told you that you can go ahead and take physics having gotten Cs in introductory calculus, perhaps
+in a remedial course that you took because you had such a hard time with precalc or because you
+failed straight up calculus when you took it.
+They lied.
+Sorry to be blunt, but thats the simple truth. Heres a list of a few of the kinds of things youll
+have to be able to do during the next two semesters of physics. Dont worry just yet about what
+they mean  that is part of what you will learn along the way. The question is, can you (perhaps
+with a short review of things youve learned and knew at one time but have not forgotten) evaluate
+these mathematical expressions or solve for the algebraic unknowns? You dont necessarily have to
+be able to do all of these things right this instant, but you should at the very least recognize most
+of them and be able to do them with just a very short review:
+0 What are the two values of 04 that solve:
+R 1
+2 _ _= 7
+oz +L04+LC 0.
+o What is: T
+PO l3 /
+=4 ?
+Q(r) R 7r 0 1" dr
+0 What is:
+dcos(wt+6)?
+dt '
+y
+ 
+What are the 17 and y components of a vector of length A that makes an angle of 0 with the
+positive (I? axis (proceeding, as usual, counterclockwise for positive 0)?
+What is the sum of the two vectors If = Aw: + Ayy and B = B3537 + Byg?
+What is the inner/ dot product of the two vectors [f = Aw: + Ayg and g = ng + Byg?
+What is the cross product of the two vectors 7" = mud: and 17" = Fyy (magnitude and direction)?
+If all of these items are unfamiliar  you dont remember the quadratic formula (needed to solve
+the rst one), cant integrate 1:"d1: (needed to solve the second one), dont recall how to differentiate
+a sine or cosine function, dont recall your basic trigonometry so that you cant nd the components
+of a vector from its length and angle or vice versa, and dont recall what the dot or cross product
+of two vectors are, then you are going to have to add to the burden of learning physics per se the
+burden of learning, or re-learning, all of the basic mathematics that would have permitted you to
+answer these questions easily.
+Here are the answers, see if this jogs your memory:Preliminaries 25
+0 Here are the two roots, found with the quadratic formula:
+six/(aka R i
+2
+ 
+ 
+ai=_____ 1_35
+.
+Po T ,3 I Po 74 T por4
+=_4 =4'_ =
+om Rrw Rw40 R
+O
+W = wsi11(wt + 6)
+w
+0
+A1: = Acos(0) A?! = Asin(9)
+K+=cn+3ae+og+3g
+X=mm+mm
+Fx=mxy=nJMxm=nJ
+My strong advice to you, if you are now feeling the cold icy grip of panic because in fact you
+are signed up for physics using this book and you couldnt answer any of these questions and dont
+even recognize the answers once you see them, is to seek out the course instructor and review your
+math skills with him or her to see if, in fact, it is advisable for you to take physics at this time or
+rather should wait and strengthen your math skills rst. You can, and will, learn a lot of math while
+taking physics and that is actually part of the point of taking it! If you are too weak going into it,
+though, it will cost you some misery and hard work and some of the grade you might have gotten
+with better preparation ahead of time.
+So, what if you could do at least some of these short problems and can remember once learn-
+ing/ knowing the tools, like the Quadratic Formula, that you were supposed to use to solve them?
+Suppose you are pretty sure that  given a chance and resource to help you out  you can do some
+review and theyll all be fresh once again in time to keep up with the physics and still do well in
+the course? What if you have no choice but to take physics now, and are just going to have to do
+your best and relearn the math as required along the way? What if you did in fact understand math
+pretty well once upon a time and are sure it wont be much of an obstacle, but you really would like
+a review, a summary, a listing of the things you need to know someplace handy so you can instantly
+look them up as you struggle with the problems that uses the math it contains? What if you are
+(or were) really good at math, but want to be able to look at derivations or reread explanations to
+bring stuff you learned right back to your ngertips once again?
+Hmmm, that set of questions spans the set of student math abilities from the near-tyro to the
+near-expert. In my experience, everybody but the most mathematically gifted students can probably
+benet from having a math review handy while taking this course. For all of you, then, I provide
+the following free book online:
+Mathematics for Introductory Physics
+It is located here:
+http: / / www.phy.duke.edu / ~rgb / Class / math_for_intro_physics.php26 Preliminaries
+It is a work in progress, and is quite possibly still somewhat incomplete, but it should help you
+with a lot of what you are missing or need to review, and if you let me know what you are missing
+that you didnt nd there, I can work to add it!
+I would strongly advise all students of introductory physics (any semester) to visit this site right
+now and bookmark it or download the PDF, and to visit the site from time to time to see if Ive
+posted an update. It is on my back burner, so to speak, until I nish the actual physics texts
+themselves that Im working on, but I will still add things to them as motivated by my own needs
+teaching courses using this series of books.
+Summary
+Thats enough preliminary stuff. At this point, if youve read all of this week s material and vowed
+to adopt the method of three passes in all of your homework efforts, if youve bookmarked the math
+help or downloaded it to your personal ebook viewer or computer, if youve realized that your brain
+is actually something that you can help and enhance in various ways as you try to learn things, then
+my purpose is well-served and you are as well-prepared as you can be to tackle physics.
